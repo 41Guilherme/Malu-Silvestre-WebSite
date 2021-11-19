@@ -112,7 +112,7 @@ const Social = styled.div`
 
 const AboutArea = styled.div`
     padding: 10px;
-    background-color:#4E4563;
+    background-color: transparent ;
     height: 80%;
 `
 export default function Home(){
@@ -136,6 +136,7 @@ export default function Home(){
                         <span>Instagram: <br/><a href='https://instagram.com/marttrevs?utm_medium=copy_link'target="_blank" >@marttrevs</a></span>
                         <span>LinkedIn:<br/><a href='https://www.linkedin.com/in/maria-luiza-bastos-silvestre-b8a134218' target="_blank"> Malu Silvestre </a></span>
                         <span>Email: <a href='mailto:malusilvestre.ms@gmail.com' target="_blank">malusilvestre.ms@gmail.com</a>  </span>
+                        <span>Lattes: <br/><a href=''>Currículo</a></span>
                     </Social>
                 </Div2>
                 <Welcome>
