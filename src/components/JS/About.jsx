@@ -114,6 +114,11 @@ const AboutArea = styled.div`
     padding: 10px;
     background-color: transparent ;
     height: 80%;
+    div{
+
+        font-size:2rem;
+    }
+
 `
 export default function Home(){
     return(
@@ -143,7 +148,9 @@ export default function Home(){
                    <p>About Me</p> 
                    <hr/>
                    <AboutArea>
-
+                        <div>
+                            
+                        </div>
                    </AboutArea>
                 </Welcome>
             </Div>

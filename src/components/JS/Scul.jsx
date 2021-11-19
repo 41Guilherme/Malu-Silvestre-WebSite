@@ -3,6 +3,7 @@ import { Fragment } from "react";
 import styled from 'styled-components';
 import { Link } from "react-router-dom";
 import Img1 from '../images/Img1.jpeg'
+import Img2 from '../images/Img2.jpg.png'
 
 const Div = styled.div`
     font-family: 'Times New Roman', Times, serif;
@@ -115,7 +116,8 @@ const AboutArea = styled.div`
     padding: 10px;
     display: flex;
     margin-left: 2rem;
-    gap: 20px 20px;
+    gap: 80px 120px;
+    flex-wrap: wrap;
     img{
         width: 315px;
         height: 400px;
@@ -125,6 +127,13 @@ const AboutArea = styled.div`
     p{
         font-size:2.1rem;
     }
+`
+
+const Img = styled.img`
+    width:  454px;
+    height: 455px;
+    border-radius: 5px;
+    box-shadow: inset 0 0 1em gold, 0 0 1em #4E4563;
 `
 export default function Home(){
     return(
@@ -158,7 +167,14 @@ export default function Home(){
                             <img src={Img1} />
                             <p>'Pavão', 2021</p>
                        </div>
-                        
+                       <div>
+                            <Img src={Img2} />
+                            <p>'Sangre', 2021</p>
+                       </div>
+                       <div>
+                            <img src={Img1} />
+                            <p>'Pavão', 2021</p>
+                       </div>
                    </AboutArea>
                 </Welcome>
             </Div>
