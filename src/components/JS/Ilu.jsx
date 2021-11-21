@@ -75,8 +75,12 @@ const Welcome = styled.div`
         font-size: 3.5rem;
     }
     p{
-        margin-top: 10rem;
-        
+        margin-top: 5px;
+        margin-bottom: 2px;
+        font-size: 4rem;
+    }
+    hr{
+        margin-top: 0;
     }
 `
 const Social = styled.div`
@@ -110,11 +114,11 @@ const Social = styled.div`
 const AboutArea = styled.div`
     padding: 10px;
 `
-export default function Home(){
+export default function Ilu(){
     return(
         <Fragment>
             <Div>
-            <Div2>
+                <Div2>
                     <Navbar>
                         <h1>Malu Silvestre</h1>
                         <hr/>
@@ -122,7 +126,6 @@ export default function Home(){
                             <Link to='/'><button>Home</button></Link>
                             <Link to='/about'><button>About</button></Link>
                             <Link to='/paint'><button>Paintings</button></Link>
-                            <Link to='/iluss'><button>Illustrations</button></Link>
                             <Link to='/scul'><button>Sculptures</button></Link>
                             <Link to='/photo'><button>Photographs</button></Link>
                             <Link to='/arct'><button>Articles</button></Link>
@@ -136,9 +139,11 @@ export default function Home(){
                     </Social>
                 </Div2>
                 <Welcome>
-                   <p>HOME</p> 
+                   <p>Illustrations</p> 
                    <hr/>
-                   <div>Welcome to my Website</div>
+                   <AboutArea>
+
+                   </AboutArea>
                 </Welcome>
             </Div>
         </Fragment>

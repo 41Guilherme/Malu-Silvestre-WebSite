@@ -10,7 +10,7 @@ import Home from './components/JS/Home';
 import About from './components/JS/About';
 import Paint from './components/JS/Paint'
 import Scul from './components/JS/Scul'
-
+import Ilu from './components/JS/Ilu';
 import Photo from './components/JS/Photo'
 import Articles from './components/JS/Articles'
 
@@ -23,6 +23,9 @@ function App() {
     <Fragment>
        <Router>
          <Switch>
+            <Route path='/iluss'>
+                <Ilu/>
+            </Route>
             <Route path='/arct'>
 
               <Articles/>
