@@ -19,7 +19,7 @@ const Div2 = styled.div`
 const Navbar = styled.div`
     background-color:#957AB0;
     padding: 10px;
-    width: 18rem;
+    width: 16rem;
     height: 29rem;
     border: 1px #000 solid;
     text-align: center;
@@ -87,7 +87,7 @@ const Social = styled.div`
     padding: 10px;
     background-color: #957AB0;
     color: #fff;
-    width: 16rem;
+    width: 12rem;
     height: 14rem;
     display: flex;
     border: 1px solid #000;
