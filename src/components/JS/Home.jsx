@@ -20,7 +20,7 @@ const Div2 = styled.div`
 const Navbar = styled.div`
     background-color:#957AB0;
     padding: 10px;
-    width: 18rem;
+    width: 16rem;
     height: 29rem;
     border: 1px #000 solid;
     text-align: center;
