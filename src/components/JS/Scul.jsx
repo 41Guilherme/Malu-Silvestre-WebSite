@@ -89,7 +89,7 @@ const Social = styled.div`
     padding: 10px;
     background-color: #957AB0;
     color: #fff;
-    width: 12rem;
+    width: 13rem;
     height: 14rem;
     display: flex;
     border: 1px solid #000;
