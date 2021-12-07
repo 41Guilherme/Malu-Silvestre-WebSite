@@ -2,8 +2,10 @@ import React from "react";
 import { Fragment } from "react";
 import styled from 'styled-components';
 import { Link } from "react-router-dom";
-
-
+import img1 from "../images/bird.jpg";
+import img2 from "../images/skrul.jpg";
+import img3 from "../images/crow.jpg"
+import img4 from "../images/malu.jpg"
 const Div = styled.div`
     font-family: 'Times New Roman', Times, serif;
     display: flex;
@@ -113,6 +115,34 @@ const Social = styled.div`
 
 const AboutArea = styled.div`
     padding: 10px;
+    display: flex;
+    margin-left: 2rem;
+    gap: 80px 120px;
+    flex-wrap: wrap;
+    img{
+        width: 265px;
+        height: 400px;
+        border-radius: 5px;
+        box-shadow: inset 0 0 1em gold, 0 0 1em #4E4563;
+    }
+    p{
+        font-size: 1.56rem; //2.1
+    }
+    .t1{
+        font-size: 1.56rem;
+    }
+    .Caveira{
+        width: 320px;
+        height: 400px;
+        border-radius: 5px;
+        box-shadow: inset 0 0 1em gold, 0 0 1em #4E4563;
+    }
+    .Corvo{
+        width: 283.5px;
+        height: 400px;
+        border-radius: 5px;
+        box-shadow: inset 0 0 1em gold, 0 0 1em #4E4563;
+    }
 `
 export default function Home(){
     return(
@@ -126,6 +156,7 @@ export default function Home(){
                             <Link to='/'><button>Home</button></Link>
                             <Link to='/about'><button>About</button></Link>
                             <Link to='/paint'><button>Paintings</button></Link>
+                            <Link to='/iluss'><button>Illustrations</button></Link>
                             <Link to='/scul'><button>Sculptures</button></Link>
                             <Link to='/photo'><button>Photographs</button></Link>
                             <Link to='/arct'><button>Articles</button></Link>
@@ -142,7 +173,22 @@ export default function Home(){
                    <p>Paintings</p> 
                    <hr/>
                    <AboutArea>
-
+                        <div>
+                            <img src={img1}/>
+                            <p>Passaro, 2020</p>
+                        </div>
+                        <div>
+                            <img className='Caveira' src={img2}/>
+                            <p>Natureza Viva, 2021</p>
+                        </div>
+                        <div>
+                            <img className='Caveira' src={img3} />
+                            <p>Corvo, 2020</p>
+                        </div>
+                        <div>
+                            <img className='Corvo' src={img4}/>
+                            <p className='t1'>Autorretrato Fragmentado, 2020</p>
+                        </div>
                    </AboutArea>
                 </Welcome>
             </Div>

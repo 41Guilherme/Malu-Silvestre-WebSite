@@ -126,6 +126,7 @@ export default function Home(){
                             <Link to='/'><button>Home</button></Link>
                             <Link to='/about'><button>About</button></Link>
                             <Link to='/paint'><button>Paintings</button></Link>
+                            <Link to='/iluss'><button>Illustrations</button></Link>
                             <Link to='/scul'><button>Sculptures</button></Link>
                             <Link to='/photo'><button>Photographs</button></Link>
                             <Link to='/arct'><button>Articles</button></Link>
