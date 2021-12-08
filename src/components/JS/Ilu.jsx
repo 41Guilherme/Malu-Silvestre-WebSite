@@ -2,7 +2,7 @@ import React from "react";
 import { Fragment } from "react";
 import styled from 'styled-components';
 import { Link } from "react-router-dom";
-
+import img1 from "../images/Ilu1.jpg"
 
 const Div = styled.div`
     font-family: 'Times New Roman', Times, serif;
@@ -88,7 +88,7 @@ const Social = styled.div`
     padding: 10px;
     background-color: #957AB0;
     color: #fff;
-    width: 13rem;
+    width: 14rem;
     height: 14rem;
     display: flex;
     border: 1px solid #000;
@@ -113,6 +113,19 @@ const Social = styled.div`
 
 const AboutArea = styled.div`
     padding: 10px;
+    display: flex;
+    margin-left: 2rem;
+    gap: 80px 120px;
+    flex-wrap: wrap;
+    img{
+        width: 300.58125px;
+        height: 427,8px;
+        border-radius: 5px;
+        box-shadow: inset 0 0 1em gold, 0 0 1em #4E4563;
+    }
+    p{
+        font-size: 2.1rem;
+    }
 `
 export default function Ilu(){
     return(
@@ -143,7 +156,9 @@ export default function Ilu(){
                    <p>Illustrations</p> 
                    <hr/>
                    <AboutArea>
-
+                        <div>
+                            <img src={img1}/>
+                        </div>
                    </AboutArea>
                 </Welcome>
             </Div>
